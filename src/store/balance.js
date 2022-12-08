@@ -7,9 +7,9 @@ export const balanceSlice = createSlice({
     name: "balance",
 
     // This is the initial state for your slice of state. 
-    // Start application with 100 balance
+    // Start application with 0 balance
     initialState: {
-        value: 100,
+        value: 0,
     },
 
     // As indicated before. The reducer is used to manipulate the initial
